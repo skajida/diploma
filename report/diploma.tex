@@ -1,0 +1,77 @@
+\documentclass[a4paper,12pt,titlepage]{article}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\setcounter{secnumdepth}{0}
+\geometry{a4paper,left=30mm,top=30mm,bottom=30mm,right=30mm}
+\hypersetup{
+    citebordercolor=1 1 1,
+    linkbordercolor=1 1 1,
+    urlbordercolor=1 1 1
+}
+
+\begin{document}
+
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+    \begin{center}
+        \includegraphics{logo.pdf} \\
+        \textsc{\small Московский государственный университет имени М.~В.~Ломоносова \\
+        Факультет вычислительной математики и кибернетики \\
+        Кафедра математической кибернетики \\}
+        \vfill
+        \large{Королёв Фёдор Иванович} \\
+        \vspace{1cm}
+        \textbf{\large Минимизация обобщенных полиномов в векторном пространстве} \\
+        \vfill
+        \textsc{\large Выпускная квалификационная работа} \\
+    \end{center}
+    \begin{flushright}
+        \vfill
+        \textbf{Научный руководитель:} \\
+        к.ф.-м.н. Бухман~А.~В.
+    \end{flushright}
+    \begin{center}
+        \vfill
+        {\small Москва\\2022}
+    \end{center}
+\end{titlepage}
+
+\hypersetup{pageanchor=true}
+\tableofcontents
+\newpage
+
+\section{Введение}
+
+В этом разделе определяется актуальность темы работы, формулируется ее цель и задачи, даются историческая справка о возникновении и развитии исследований этой задачи, известные результаты.
+
+\section{Основные понятия}
+
+В этом разделе вводятся основные понятия и описываются известные результаты, касающиеся рассматриваемой задачи.
+
+\section{Постановка задачи}
+
+В этом разделе четко формулируется, что требовалось сделать в работе: исследовать такие-то свойства, доказать такие-то теоремы, реализовать такие-то программы и т.д.
+
+\section{Основная часть}
+
+В этом разделе подробно описываются полученные результаты.
+
+\section{Полученные результаты}
+
+В этом разделе сжато перечисляются полученные результаты: доказаны такие-то теоремы, реализованы такие-то программы, получены такие-то экспериментальные результаты и т.д.
+
+\begin{raggedright}
+\addcontentsline{toc}{section}{Литература}
+\begin{thebibliography}{99}
+    \bibitem{selezn} Селезнева~С.~Н., Шуплецов~М.~С., Дайняк~А.~Б. Булевы функции и полиномы //Москва – 2006. – С.~9-13.
+\end{thebibliography}
+В этом разделе приводится список литературы, использованной при подготовке ВКР. На каждый пункт списка должна иметься ссылка в тексте ВКР.
+\end{raggedright}
+
+\end{document}
